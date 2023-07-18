@@ -19,7 +19,7 @@ body {
 	margin-left: 15px;
 	font-size: 100px;
 	font-weight: 1000;
-	letter-spacing: 20px;
+	letter-spacing: 5px;
 }
 
 #leftSide {
@@ -60,6 +60,10 @@ input {
 }
 
 input:invalid {
+	color: red;
+}
+
+#validator {
 	color: red;
 }
 
